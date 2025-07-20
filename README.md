@@ -11,7 +11,7 @@ This web application helps users analyze GPS tracking data from vehicles to dete
 ![Input Interface](https://github.com/tarnuN/Assignment_-Intandem/blob/main/Screenshot%202025-07-20%20150736.png?raw=true)
 
 ### 📍 Output Map with Stoppages
-![Map Output](Screenshot 2025-07-20 150704.png)
+![Map Output](https://github.com/tarnuN/Assignment_-Intandem/blob/main/Screenshot%202025-07-20%20150704.png?raw=true)
 
 ---
 
