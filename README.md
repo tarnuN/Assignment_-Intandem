@@ -8,7 +8,7 @@ This web application helps users analyze GPS tracking data from vehicles to dete
 ## 📸 Screenshots
 
 ### 🔼 Input Interface
-![Input Interface](https://chat.openai.com/file-3rC2tVNXkqwntri8SvhoT5)
+![Input Interface](https://github.com/tarnuN/Assignment_-Intandem/blob/main/Screenshot%202025-07-20%20150736.png?raw=true)
 
 ### 📍 Output Map with Stoppages
 ![Map Output](Screenshot 2025-07-20 150704.png)
