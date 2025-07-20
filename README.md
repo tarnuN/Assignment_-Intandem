@@ -95,9 +95,3 @@ This web application helps users analyze GPS tracking data from vehicles to dete
 - Real-time vehicle tracking
 - Mobile responsive design
 
----
-
-## 📬 Contact
-
-**Developer:** Tarun Naik  
-📧 [Your email or GitHub link]
