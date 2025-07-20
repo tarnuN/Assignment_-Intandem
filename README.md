@@ -11,7 +11,7 @@ This web application helps users analyze GPS tracking data from vehicles to dete
 ![Input Interface](https://chat.openai.com/file-3rC2tVNXkqwntri8SvhoT5)
 
 ### 📍 Output Map with Stoppages
-![Map Output](https://chat.openai.com/file-DoNBicsthiyM8JxG3Q5hG8)
+![Map Output](Screenshot 2025-07-20 150704.png)
 
 ---
 
