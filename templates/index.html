@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Stoppage Detection</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            animation: gradientBG 15s ease infinite;
+            background: linear-gradient(-45deg, #e66465, #9198e5, #23a6d5, #fdbb2d);
+            background-size: 400% 400%;
+            color: #fff;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 100px auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        input[type="file"],
+        input[type="number"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        input[type="submit"] {
+            background-color: #00c853;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00b34d;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Upload GPS Excel File</h2>
+        <form method="POST" enctype="multipart/form-data">
+            <label>Excel File (.xlsx):</label>
+            <input type="file" name="gpsfile" required><br>
+
+            <label>Stoppage Threshold (minutes):</label>
+            <input type="number" name="threshold" value="5" required><br>
+
+            <input type="submit" value="Analyze">
+        </form>
+    </div>
+</body>
+</html>
